@@ -1,36 +1,46 @@
 .mainbox{
-    background-color: blue;
-    width: 800px;
-    margin: 1px auto;
+    background-color: white;
+    width: 1920px;
+    margin: 0px auto;
 }
 .menu{
     background: darkred;
 }
 
 .leftside{
-    background-color: firebrick;
-    width: 100px;
+    background-color: white;
+    font-family:Tahoma, Serif;
+    font-size: 15px;
+    width: 560px;
     float: left;
 }
 
 .main{
-    background-color: crimson;
-    width: 600px;
+    background-color: white;
+    width: 800px;
+    height: fit-content;
     float: left;
+    font-family:Tahoma, Serif;
+    font-size: 20px;
 }
 
 .rightside{
-    background-color: brown;
-    width: 100px;
+    background-color: white;
+    width: 560px;
     float: left;
+    font-family:Tahoma, Serif;
+    font-size: 15px;
 }
 
 .footer{
-    background-color: darkviolet;
+    background-color: white;
+    position:fixed;
+    bottom:0;
+    width: 1920px;
 }
 
 .menu{
-    height: 37px;
+    height: 40px;
     text-align: center;
 }
 
@@ -41,11 +51,62 @@
     position: relative;
     top:8px;
     font-family:Tahoma, Serif;
-    font-size: 15px;
+    font-size: 20px;
 }
 .menu>ul>li>a{
     text-decoration: none;
     color: #fff;
+@media only screen and (max-width: 768px) {
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+}
+[class*="col-"] {
+    width: 100%;
 }
 [class*="col-"] {
     width: 100%;
