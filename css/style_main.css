@@ -30,9 +30,6 @@
 .rightside{
     background-color: white;
     width: 560px;
-
-
-
     float: right;
     font-family:Tahoma, Serif;
     font-size: 20px;
@@ -50,7 +47,6 @@
     text-align: center;
 }
 
-
 .menu>ul>li{
     display:inline;
     padding:10px 10px 10px 10px;
@@ -65,8 +61,6 @@
     color: #fff;
 
 
-
-
 . {width: 8.33%;}
 .rightside .leftside {width: 16.66%;}
 . {width: 25%;}
@@ -79,8 +73,6 @@
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .menu {width: 100%;}
-
-
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
